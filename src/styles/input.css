@@ -1,0 +1,10 @@
+/* Google Fonts (Font: Press Start 2P) */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Google Fonts (Font: Jersey) */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
