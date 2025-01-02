@@ -20,6 +20,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Under construction modal toggler
+function openModal() {
+    const modal = document.getElementById('notice-modal');
+    modal.classList.remove('hidden');
+}
+
+function closeModal() {
+    const modal = document.getElementById('notice-modal');
+    modal.classList.add('hidden');
+}
+
 // Typed JS
 var typed = new Typed("#auto-type", {
     strings: ["Systems Analyst", "Developer", "Cybersecurity"],
