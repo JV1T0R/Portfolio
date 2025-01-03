@@ -20,41 +20,35 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// Under construction modal toggler
 function openModal() {
     const modal = document.getElementById('notice-modal');
     const modalContent = modal.querySelector('.transform');
 
-    // Mostra o fundo escuro
     modal.classList.remove('hidden');
     modal.classList.remove('bg-opacity-0');
     modal.classList.add('bg-opacity-50');
 
-    // Anima o conteúdo do modal (opacidade e escala)
     setTimeout(() => {
         modalContent.classList.remove('scale-95', 'opacity-0');
         modalContent.classList.add('scale-100', 'opacity-100');
-    }, 100); // Pequeno atraso para suavizar a sequência
+    }, 100); 
 }
 
 function closeModal() {
     const modal = document.getElementById('notice-modal');
     const modalContent = modal.querySelector('.transform');
 
-    // Oculta o conteúdo do modal (opacidade e escala)
     modalContent.classList.remove('scale-100', 'opacity-100');
     modalContent.classList.add('scale-95', 'opacity-0');
 
-    // Torna o fundo transparente
     setTimeout(() => {
         modal.classList.remove('bg-opacity-50');
         modal.classList.add('bg-opacity-0');
-    }, 300); // Espera que o conteúdo termine antes de iniciar o fundo
+    }, 300); 
 
-    // Esconde o modal completamente após a transição
     setTimeout(() => {
         modal.classList.add('hidden');
-    }, 500); // Tempo deve ser igual ao `duration-700`
+    }, 500); 
 }
 
 // Typed JS

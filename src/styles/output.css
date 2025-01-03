@@ -779,6 +779,10 @@ video {
   padding: 1rem;
 }
 
+.p-6{
+  padding: 1.5rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -991,6 +995,18 @@ video {
 
   .sm\:gap-5{
     gap: 1.25rem;
+  }
+
+  .sm\:p-4{
+    padding: 1rem;
+  }
+
+  .sm\:p-6{
+    padding: 1.5rem;
+  }
+
+  .sm\:p-2{
+    padding: 0.5rem;
   }
 
   .sm\:text-2xl{
