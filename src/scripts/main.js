@@ -53,7 +53,7 @@ function closeModal() {
 
 // Typed JS
 var typed = new Typed("#auto-type", {
-    strings: ["Systems Analyst", "Developer", "Cybersecurity"],
+    strings: ["Systems Analysys","Cybersecurity", "Development"],
     typeSpeed: 50,
     backSpeed: 50,
     loop: true,
